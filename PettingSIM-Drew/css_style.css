@@ -1,0 +1,87 @@
+html {
+    background-color: black ;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.356);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid white 3px;
+    border-radius: 5%;
+    /*display: flex;*/
+}
+#Drew {
+    border:solid 5px rgb(29, 31, 43);
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    color: rgb(29, 31, 43);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    font-size: 3.4em;
+    border: solid white 3px;
+    border-radius: 5%;
+    background-color: white;
+}
+
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: larger;
+    color: white;
+}
+
+button:hover {
+    background-color: #000000; 
+    color: white; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 75px;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10%;
+  }
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 75px;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border: solid rgb(29, 31, 43)
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background:rgba(255, 255, 255, 0.356);
+    width: 200px;
+    height: 200px;
+}
