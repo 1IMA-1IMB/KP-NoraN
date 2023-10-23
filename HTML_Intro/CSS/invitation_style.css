@@ -1,0 +1,40 @@
+html {
+    background-image: url(https://g.api.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/1674838491000/oppl/2023/1/27/17/1674838485590.jpg?chk=2758E3);
+    background-size:cover;
+}
+
+body {
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 150px;
+   margin-bottom: 30px;
+   padding-bottom: 30px;
+   font-size: xx-large;
+   background-color: rgba(188, 200, 237, 0.7);
+}
+
+p {
+    font-size: x-large;
+}
+
+h1 {
+    color: rgb(46, 40, 69);
+}
+.adress {
+    display: block;
+    position: relative;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    width: 75%;
+    line-break: auto;
+}
+
+li {
+    font-size: x-large;
+    font-weight: bold;
+    color: aliceblue;
+}
