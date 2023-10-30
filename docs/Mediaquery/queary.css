@@ -12,3 +12,20 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+h1{
+    text-align: center;
+}
+
+p {
+    font-size: small;
+    text-align: justify;
+}
+
+.statement {
+    text-align: center;
+}
+
+.burning {
+    border: solid 2px black;
+}
