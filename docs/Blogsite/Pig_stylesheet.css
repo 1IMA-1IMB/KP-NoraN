@@ -1,0 +1,467 @@
+@media only screen and (max-width: 768px) { /*MOBILE PHONE*/
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    html {
+        background-color: lightcoral;
+    }
+
+    
+    body {
+        background-color: white;
+
+        padding: 20px;
+        padding-top: 0px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .gjennomsiktig {
+        color: transparent;
+        margin: -10px;
+    }
+            /*LOGO*/
+    .bastard_box {
+        margin-top: 20px;
+        padding: 0PX;
+        padding-top:0px;
+        padding-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(images/Sky_BG.jpg);
+    }
+
+    h1 {
+        padding: 0px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+
+        font-size: 4em;
+        font-weight: bolder;
+        color: brown;
+        font-family: fantasy;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .parish {
+        font-size: 400%;
+        color: brown; 
+        -webkit-text-stroke: 0.5px white;
+    }
+
+    .Logo {
+        padding: 0px;
+        width: 60%;
+        height: 60%;
+        border: transparent;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid 2px brown;
+    }
+
+    h2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        margin-top: 0px;
+        text-align: center;
+    }
+            /*MENU*/
+    .container_boxes {
+        background-color: brown;
+        width: -120%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box {
+        color: white;
+        border: solid 1px brown;
+        padding: 10px;
+        align-items:center ;
+        flex-direction: row;
+    }
+
+    .box1 {
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+    }
+            /*DISPLAY IMAGES*/
+    .display_images {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pig_img {
+        border: transparent;
+        display: flex;
+        height: 140px;
+        margin-bottom: 20px;
+    }
+            /*WEBSITE INFO / WELCOME*/
+    .info {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+            /*STORIES*/
+    #Drew {
+        border-top: solid 1px lightgray;
+        border-bottom: solid 1px lightgray;
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .story_container {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    h3 {
+        font-family: fantasy;
+        font-size: 2em;
+        margin-top: 5px;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+
+    p {
+        font-family:Verdana, Tahoma, sans-serif;
+        text-align: justify;
+        font-size: small;
+        margin-top: 1px;
+        margin-bottom: 0px;
+    }
+
+    h6 {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        color: gray;
+        margin-top: 10px;
+    }
+            /*SANDER*/
+    .sand_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-top: solid 1px lightgray;
+        padding-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .sander {
+        border-radius: 100%;
+    }
+
+    .sand_name {
+        color: brown;
+    }
+
+    h4 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: larger;
+        margin: 5px;
+        margin-bottom:20px;
+    }
+
+    .sand_info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 20px;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 759px) { /*COMPUTER*/
+    /* For COMPUTER: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    html {
+        background-color: lightcoral;
+    }
+
+    
+    body {
+        background-color: white;
+
+        padding: 20px;
+        padding-top: 0px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .transparent {
+        color: transparent;
+        font-size: 0em;
+    }
+            /*LOGO*/
+    .bastard_box {
+        margin-top: 20px;
+        padding: 0PX;
+        padding-top:0px;
+        padding-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .bastard_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(images/Sky_BG.jpg);
+        position: sticky;
+
+    }
+
+    h1 {
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        opacity: 1.0;
+        font-size: 4em;
+        font-weight: bolder;
+        color: brown;
+        font-family: fantasy;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .parish {
+        font-size: 600%;
+        color: brown; 
+        -webkit-text-stroke: 0.5px white;
+    }
+
+    .Logo {
+        padding: 0px;
+        width: 30%;
+        height: 30%;
+        border: transparent;
+    }
+
+    img {
+        width: 90%;
+        height: 90%;
+        padding: 0px;
+        padding-top: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid 2px brown;
+    }
+
+    h2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        margin-top: 0px;
+        text-align: center;
+    }
+            /*MENU*/
+    .container_boxes {
+        background-color: brown;
+        width: -120%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box {
+        color: white;
+        border: solid 1px brown;
+        padding: 10px;
+        align-items:center ;
+        flex-direction: row;
+    }
+
+    .box1 {
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+            /*DISPLAY IMAGES*/
+    .display_images {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        height: 100%;
+    }
+
+    .pig_img {
+        border: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 300px;
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 10px;
+    }
+            /*WELCOME*/
+    .welcome {
+        width: 100%;
+    }
+
+    .info {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+            /*STORIES*/
+    .popular {
+        width: 100%;
+        background-color: lightgray;
+        border-radius: 75%;
+    }
+
+    #Drew {
+        border-left: solid 1px lightgray;
+        border-right: solid 1px lightgray;
+    }
+
+    .story {
+        height: 424px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
+        width: 33.33%;
+    }
+
+    .story_container {
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h3 {
+        font-family: fantasy;
+        font-size: 200%;
+        margin-top: 5px;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+
+    p {
+        font-family:Verdana, Tahoma, sans-serif;
+        text-align: justify;
+        font-size: small;
+        margin-top: 1px;
+        margin-bottom: 0px;
+    }
+
+    h6 {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        color: darkslategray;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-self: flex-end;
+        align-items: end;
+    }
+            /*SANDER*/
+    .sand_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-top: solid 1px lightgray;
+        padding-top: 30px;
+        margin-bottom: 10px;
+    }
+        
+    .gjennomsiktig {
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        font-size: 2em;
+        font-weight: bolder;
+    }
+
+    .sander {
+        border-radius: 100%;
+        width: 100%;
+    }
+        
+    .sand_title {
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        height: 100%;
+        padding-right: 20px;
+    }
+
+    .sand_name {
+        color: brown;
+        display: flex;
+        justify-content: left;
+    }
+        
+    h4 {
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        font-size: larger;
+        margin: 5px;
+        margin-bottom:20px;
+    }
+        
+    .sand_info {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 20px;
+        
+    }
+}
