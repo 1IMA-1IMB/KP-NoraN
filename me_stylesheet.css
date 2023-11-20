@@ -100,10 +100,28 @@
         width: 50%;
     }
 
+    .gallery_box1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
     .gallery_box2 {
         display: flex;
         flex-direction: column;
         width: 41.5%;
+    }
+
+    .gallery_box3 {
+        display: flex;
+        flex-direction: column;
+        width: 28%;
+    }
+
+    .gallery_box4 {
+        display: flex;
+        flex-direction: column;
+        width: 72%;
     }
             /*FINISHED PIECES*/
         .traskaare {
