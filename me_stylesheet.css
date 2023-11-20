@@ -70,6 +70,42 @@
         align-items:center ;
         flex-direction: row;
     }
+            /*GALLERY IMAGES */
+    .gallery {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .gallery_box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .traskaare {
+        height: 30%;
+        width: 30%;
+    }
+
+    .dancing {
+        height: 30%;
+        width: 30%;
+    }
+
+    .cynder {
+        height: 30%;
+        width: 30%;
+    }
+
+    .spyro {
+        height: 30%;
+        width: 30%;
+    }
+
+    .occult {
+        height: 100%;
+        width: 100%;
+        
+    }
 }
 
 @media only screen and (min-width: 769px) { /*MOBILE COMPUTER*/
