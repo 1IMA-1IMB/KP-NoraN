@@ -21,6 +21,10 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    #transparent {
+        opacity: 0.0;
+    }
                     /*PERSONA*/
     .persona {
         display: flex;
@@ -36,12 +40,35 @@
         align-content: center;
         margin-top: 20px;
         border-radius: 100%;
-        height: 100%;
-        width: 100%;
+        height: 90%;
+        width: 90%;
+        border: solid 3px white;
+    }
+
+    .info_stuff {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     .info {
-        width: 70%;
+        flex-direction: column;
+        width: 1000%;
+    }
+
+    .occult_box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .occult_solo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 80%;
+        padding: 2px;
     }
 
     h1 {
@@ -56,6 +83,9 @@
 
     p {
         color: aliceblue;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
     }
             /*MENU*/
     .menu_container {
@@ -63,12 +93,22 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin-top: 10px;
     }
 
     .box {
+        display: flex;
         padding: 10px;
-        align-items:center ;
+        align-items:center;
+        justify-content: center;
+        text-align: center;
         flex-direction: row;
+        height: 40px;
+        font-size: 80%;
+        margin: 1px;
+        background-color: rgb(41, 41, 63, 0.3);
+        border: solid 1px rgb(41, 41, 63, 0.3);
+        border-radius: 5%;
     }
             /*GALLERY IMAGES */
     .portfolio {
@@ -86,6 +126,8 @@
     img {
         border-radius: 5%;
         margin: 2.5px;
+        
+        background-color: rgb(19, 19, 23);
     }
 
     .gallery {
@@ -94,6 +136,13 @@
         justify-content: center;
     }
     
+    #gallery_description {
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        padding: 2px;
+    }
+
     .gallery_box {
         display: flex;
         flex-direction: column;
