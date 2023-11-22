@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) { /*MOBILE PHONES*/
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    html {
+        background-color: gray;
+    }
+
+    body {
+        background-color: white;
+        padding: 5px;
+        border-radius: 1%;
+    }
+
+    img {
+        width: 50%;
+        height: auto;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 769px) { /*COMPUTERS*/
+    /* For computer: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    
+}

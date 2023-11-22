@@ -54,7 +54,7 @@
 
     .info {
         flex-direction: column;
-        width: 1000%;
+        width: 4000%;
     }
 
     .occult_box {
@@ -93,7 +93,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .box {
@@ -141,6 +141,15 @@
         justify-content: left;
         text-align: left;
         padding: 2px;
+    }
+
+    #gallery_description1 {
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        padding: 2px;
+        margin-bottom: 5px;
+        margin-top: 20px;
     }
 
     .gallery_box {
@@ -216,6 +225,30 @@
         }
 
             /*OTHER PROGRAMS*/
+
+    .program_gallery {
+        border: solid 1px rgb(41, 41, 63, 0.3);
+        border-radius: 5%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(41, 41, 63, 0.3);
+    }
+
+    .programs {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    a {
+        margin: 5px;
+        color: aliceblue;
+    }
+
     .occult {
         height: 100%;
         width: 100%;
