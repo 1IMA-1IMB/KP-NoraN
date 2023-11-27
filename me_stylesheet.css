@@ -270,4 +270,242 @@
         height: 100%;
         width: 100%;
     }
+    html {
+        background-color: rgb(41, 41, 63);
+        /*background-image: url(../images/Burning.gif);*/
+        height: 2000px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    body {
+        background-color: rgb(19, 19, 23);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #transparent {
+        opacity: 0.0;
+    }
+                    /*PERSONA*/
+    .persona {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }  
+    
+    .info_stuff {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info {
+        flex-direction: column;
+        width: 4000%;
+    }
+
+    .occult_box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .occult_solo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 80%;
+        padding: 2px;
+    }
+
+    h1 {
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+    }
+
+    h2 {
+        color: aliceblue;
+    }
+
+    p {
+        color: aliceblue;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+            /*MENU*/
+    .menu_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .box {
+        display: flex;
+        padding: 10px;
+        align-items:center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+        height: 40px;
+        font-size: 80%;
+        margin: 1px;
+        background-color: rgb(41, 41, 63, 0.3);
+        border: solid 1px rgb(41, 41, 63, 0.3);
+        border-radius: 5%;
+    }
+            /*GALLERY IMAGES */
+    .portfolio {
+        border: solid 1px rgb(41, 41, 63, 0.3);
+        border-radius: 5%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(41, 41, 63, 0.3);
+    }
+
+    img {
+        border-radius: 5%;
+        margin: 2.5px;
+        
+        background-color: rgb(19, 19, 23);
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #gallery_description {
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        padding: 2px;
+    }
+
+    #gallery_description1 {
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        padding: 2px;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+
+    .gallery_box {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .gallery_box1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .gallery_box2 {
+        display: flex;
+        flex-direction: column;
+        width: 41.5%;
+    }
+
+    .gallery_box3 {
+        display: flex;
+        flex-direction: column;
+        width: 28%;
+    }
+
+    .gallery_box4 {
+        display: flex;
+        flex-direction: column;
+        width: 72%;
+    }
+            /*FINISHED PIECES*/
+        .traskaare {
+            display: flex;
+            height: 100%;
+            width: 100%;
+        }
+
+        .dancing {
+            display: flex;
+            height: 100%;
+            width: 100%;
+        }
+
+        .cynder {
+            display: flex;
+            height: 100%;
+            width: auto;
+        }
+
+        .spyro {
+            display: flex;
+            height: 100%;
+            width: auto;
+        }
+            /*PROGRESS*/
+        .wahoo {
+            display: flex;
+            height: auto;
+            width: auto;
+        }
+
+        .portrait_kryssild {
+            display: flex;
+            height: auto;
+            width: auto;
+        }
+            /*REFS*/
+        .ref {
+            display: flex;
+            height: auto;
+            width: auto;
+        }
+
+            /*OTHER PROGRAMS*/
+
+    .program_gallery {
+        border: solid 1px rgb(41, 41, 63, 0.3);
+        border-radius: 5%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(41, 41, 63, 0.3);
+    }
+
+    .programs {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    a {
+        margin: 5px;
+        color: aliceblue;
+    }
+
+    .occult {
+        height: 100%;
+        width: 100%;
+    }
 }
