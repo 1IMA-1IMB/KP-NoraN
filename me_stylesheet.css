@@ -96,6 +96,12 @@
         margin-top: 20px;
     }
 
+    .bookholder {
+        visibility: hidden;
+        height: 10px;
+        width: 10px;
+    }
+
     .box {
         display: flex;
         padding: 10px;
@@ -131,6 +137,12 @@
     }
 
     .gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .commgallery {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -249,6 +261,14 @@
         color: aliceblue;
     }
 
+    .stars {
+        display: flex;
+        height:auto;
+        width: 100%;
+        align-self: center;
+        border: solid 3px rgb(41, 41, 63, 0.3);
+    }
+
     .occult {
         height: 100%;
         width: 100%;
@@ -266,10 +286,11 @@
         justify-content: center;
         align-content: center;
         margin-top: 20px;
-        border-radius: 25%;
-        height: 100%;
-        width: 100%;
+        border-radius: 100%;
+        height: auto;
+        width: 30%;
     }
+
     html {
         background-color: rgb(41, 41, 63);
         /*background-image: url(../images/Burning.gif);*/
@@ -289,17 +310,17 @@
     }
 
     #transparent {
-        opacity: 0.0;
+        visibility: hidden;
     }
                     /*PERSONA*/
     .persona {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
     }  
-    
+
     .info_stuff {
         display: flex;
         flex-direction: row;
@@ -351,6 +372,24 @@
         margin-top: 20px;
     }
 
+    .bookholder {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: auto;
+    }
+
+    .sidebox {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+        width: auto;
+        height: 80px;
+        margin: 1px;
+    }
+
     .box {
         display: flex;
         padding: 10px;
@@ -358,15 +397,38 @@
         justify-content: center;
         text-align: center;
         flex-direction: row;
-        height: 40px;
-        font-size: 80%;
+        height: 60px;
+        width: 15%;
+        font-size: 100%;
         margin: 1px;
         background-color: rgb(41, 41, 63, 0.3);
         border: solid 1px rgb(41, 41, 63, 0.3);
         border-radius: 5%;
     }
             /*GALLERY IMAGES */
+    .mqcom {
+        display: flex;
+        flex-direction: row;
+    }        
+
     .portfolio {
+        border: solid 1px rgb(41, 41, 63, 0.3);
+        border-radius: 5%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(41, 41, 63, 0.3);
+        width: 50%;
+        height: auto;
+        align-items: center;
+    }
+
+    .portfolio1 {
         border: solid 1px rgb(41, 41, 63, 0.3);
         border-radius: 5%;
         padding-left: 10px;
@@ -375,6 +437,25 @@
         padding-bottom: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
+        background-color: rgb(41, 41, 63, 0.3);
+        width: 50%;
+        height: auto;
+    }
+
+    #commport {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 39%;
+        height: auto;
+        align-items: center;
+        border: solid 1px rgb(41, 41, 63, 0.3);
+        border-radius: 5%;
         background-color: rgb(41, 41, 63, 0.3);
     }
 
@@ -390,7 +471,19 @@
         flex-direction: row;
         justify-content: center;
     }
-    
+
+    #progress {
+        margin-left: 0px;
+    }
+
+    .commgallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }
+
     #gallery_description {
         display: flex;
         justify-content: left;
@@ -427,8 +520,8 @@
 
     .gallery_box3 {
         display: flex;
-        flex-direction: column;
-        width: 28%;
+        flex-direction: row;
+        width: auto;
     }
 
     .gallery_box4 {
@@ -472,6 +565,30 @@
             height: auto;
             width: auto;
         }
+            /*COMMS*/
+        
+        .wahoshit {
+            display: flex;
+            height: 50%;
+        }
+
+        #Dragonbeswim {
+            display: flex;
+            align-self: right;
+            height: 50%;
+            width: 120%;
+        }
+
+        #patpat {
+            display: flex;
+            width: 52%;
+        }
+
+        #shadyshit {
+            display: flex;
+            width: 41%;
+        }
+
             /*REFS*/
         .ref {
             display: flex;
@@ -480,7 +597,6 @@
         }
 
             /*OTHER PROGRAMS*/
-
     .program_gallery {
         border: solid 1px rgb(41, 41, 63, 0.3);
         border-radius: 5%;
@@ -491,6 +607,8 @@
         margin-top: 10px;
         margin-bottom: 10px;
         background-color: rgb(41, 41, 63, 0.3);
+        width: 50%;
+        height: auto;
     }
 
     .programs {
@@ -502,6 +620,14 @@
     a {
         margin: 5px;
         color: aliceblue;
+    }
+
+    .stars {
+        display: flex;
+        height: 100%;
+        width: 40%;
+        align-self: center;
+        border: solid 3px rgb(41, 41, 63, 0.3);
     }
 
     .occult {
