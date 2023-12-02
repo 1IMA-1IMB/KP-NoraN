@@ -409,6 +409,7 @@
     .mqcom {
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }        
 
     .portfolio {
