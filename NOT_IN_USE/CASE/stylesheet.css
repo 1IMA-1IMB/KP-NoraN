@@ -7,6 +7,8 @@
     html {
         background-color: rgb(34, 35, 45);
         height: 20000px;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
     #transparent {
@@ -24,10 +26,31 @@
     .IGN {
         color: white;
         display: flex;
+        justify-self: center;
+        flex-direction: column;
         text-align: left;
-        position: absolute;
-        margin-top: 5%;
-        font-size: small;
+        position: fixed;
+        margin-top: 55%;
+        font-size: 70%;
+        width: 80%;
+        background-color: #0000007c;
+        border-radius: 10%;
+    }
+
+    .IGN_logo {
+        height: auto;
+        width: 20px;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        margin-left: 5px;
+
+    }
+
+    #ign_credit {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     img {
@@ -50,8 +73,10 @@
     .hero {
         display: flex;
         justify-content: center;
+        width: auto;
         position: static;
         margin: -10px;
+        max-width: 110%;
     }
             /*MENU*/
     .menu {
@@ -65,6 +90,7 @@
         top: 0;
         left: 0;
         right: 0;
+        max-width: 100%;
     }
     
     .menu_box {
@@ -84,5 +110,37 @@
         height: auto;
         width: 30px;
     }
+            /* MAIN PAGE*/
+    .info_container {
+        padding-top: 20px;
+        display: flex;
+        background-color: rgb(34, 35, 45);
+        width: 110%;
+        position: sticky;
+    }
 
+    .game_teaser {
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
+
+    .summary {
+        color: white;
+        max-width: 100%;
+    }
+
+    .info_title {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .game_summary {
+        display: flex;
+        text-align: justify;
+    }
 }
