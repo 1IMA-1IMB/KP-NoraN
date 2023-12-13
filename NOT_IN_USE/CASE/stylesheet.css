@@ -154,6 +154,7 @@
     .container_seperation {
         margin-top: 5px;
         margin-bottom: 5px;
+        border-bottom: solid 2px rgba(135, 134, 141, 0.162);
     }
 
     .game_teaser {
