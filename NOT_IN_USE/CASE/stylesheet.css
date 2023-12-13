@@ -11,8 +11,12 @@
         overflow-x: hidden;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     #transparent {
-        display: flex;
+        display: none;
         opacity: 0.0;
         position: absolute;
     }
@@ -41,7 +45,6 @@
         margin-top: -30%;
         margin-left: 7%;
         background-color: #0000007c;
-        border-radius: 10%;
         font-size: 10px;
         position: fixed;
     }
@@ -164,7 +167,7 @@
     }
 
     .asset_credits {
-        color: rgb(48, 44, 60);
+        color: rgb(135, 134, 141);
         display: flex;
         font-family: Arial, Helvetica, sans-serif;
         font-size: small;
@@ -199,7 +202,7 @@
 }
 
 @media only screen and (min-width: 769px) { /*COMPUTER*/
-    /* For mobile phones: */
+    /* For computers: */
     [class*="col-"] {
       width: 100%;
     }
@@ -211,11 +214,16 @@
         overflow-x: hidden;
     }
 
-    #transparent {
-        display: flex;
+    a {
+        text-decoration: none;
+    }
+
+    #transparent1 {
+        display: none;
         opacity: 0.0;
         position: absolute;
     }
+
             /*HERO IMAGE*/
     .head_container {
         display: flex;
@@ -224,24 +232,23 @@
     }
 
     h2 {
-        font-size: 170%; 
-        text-align: center;
+        font-size: 130%; 
+        text-align: left;
     }
 
     .IGN {
         color: white;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        align-self: center;
+        align-items: left;
+        justify-content: left;
+        align-self: left;
         flex-direction: column;
         padding: 10px;
         padding-bottom: 0px;
-        width: 80%;
-        margin-top: -30%;
-        margin-left: 7%;
+        width: 35%;
+        margin-top: -35%;
+        margin-left: 3%;
         background-color: #0000007c;
-        border-radius: 10%;
         font-size: 10px;
         position: fixed;
     }
@@ -258,10 +265,10 @@
 
     #ign_credit {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: left;
+        justify-content: left;
         flex-direction: row;
-        align-items: center;
+        align-items: left;
         margin-top: 10px;
         font-size: medium;
         color: rgb(255, 255, 255)
@@ -274,8 +281,8 @@
 
     .logo {
         height: auto;
-        width: 90%;
-        margin-top: 25%;
+        width: 60%;
+        margin-top: 20%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -292,6 +299,16 @@
         margin: -10px;
         max-width: 110%;
     }
+
+    .hero1 {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        position: static;
+        margin: -10px;
+        margin-top: -160px;
+        max-width: 110%;
+    }
             /*MENU*/
     .menu {
         display: flex;
@@ -302,8 +319,8 @@
         position: fixed;
         background-color: #0000007c;
         top: 0;
-        left: 0;
         right: 0;
+        left: 0;
         max-width: 100%;
     }
     
@@ -328,7 +345,7 @@
     }
             /* MAIN PAGE*/
     .info_container {
-        margin-top: 10px;
+        margin-top: -10px;
         padding-top: 7.5px;
         display: flex;
         flex-direction: column;
@@ -336,7 +353,6 @@
         background-color: rgb(0, 0, 0);
         width: auto;
         height: 100%;
-        
         position: relative;
     }
 
@@ -349,8 +365,20 @@
     }
 
     .container_seperation {
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: solid 2px rgba(135, 134, 141, 0.162);
+        border-width: 60%;
+    }
+
+    #seperation1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #seperation2 {
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     .game_teaser {
@@ -364,7 +392,7 @@
     }
 
     .asset_credits {
-        color: rgb(48, 44, 60);
+        color: rgb(135, 134, 141);
         display: flex;
         font-family: Arial, Helvetica, sans-serif;
         font-size: small;
@@ -378,6 +406,7 @@
         padding: 10px;
         padding-top: 5px;
         margin: 10px;
+        width: 60%;
         max-width: 100%;
     }
 
