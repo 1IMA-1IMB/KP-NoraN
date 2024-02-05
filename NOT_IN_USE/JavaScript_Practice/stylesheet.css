@@ -1,0 +1,17 @@
+html {
+    background-color: rgb(49, 49, 49);
+}
+
+body {
+    /*COSMETICS*/
+    background-color: white;
+    /*FORMAT*/
+    padding: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /*DISPLAY*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
