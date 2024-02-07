@@ -1,19 +1,20 @@
 
-
+let number = document.getElementById('inputfield');
 let gallon = 3.78541;
 let ounces = 0.0295735;
 let cups = 0.236588;
 let tbs = 0.0147868;
 
-function lconvertg(userinput) {
-    let userinput = document.getElementById().value;
+function lconvertg() {
+    let userinput = number.value
+    //let  = document.getElementById().value ;
     
     //litre*gallon;
     console.log(userinput+"Litres in gallons is"+userinput*gallon+"gallons")
 
 }
 
-function lconverto(userinput) {
+function lconverto() {
     let userinput = document.getElementById().value;
     
    //litre*ounces;
@@ -21,7 +22,7 @@ function lconverto(userinput) {
     
 }
 
-function lconvertc(userinput) {
+function lconvertc() {
     let userinput = document.getElementById().value;
     
     //litre*cups;
@@ -29,7 +30,7 @@ function lconvertc(userinput) {
    
 }
 
-function lconvertt(userinput) {
+function lconvertt() {
     let userinput = document.getElementById().value;
     
    //litre*tbs;

@@ -8,12 +8,30 @@
 <body>
     
     <div>
-        <button onclick="openmenu">Menu</button>
+
+        <button onclick="openmenu()">Menu</button>
+
+    </div>
+
+    <div class="menu">
+
+        <a>Litres to Gallons</a>
+
+        <a>Litres to Ounces</a>
+
+        <a>Litres to Cups</a>
+
+        <a onclick="lconvertt()">Litres to Talespoons</a>
+
     </div>
 
     <script src="litres.js"></script>
-    <input type="number"  class="number" value="userinput"/> 
-    <button onclick="lconvertg(1)">submit</button>
+
+    <input type="number" id="inputfield" class="userinput"/> 
+    
+    <button type="submit">Submit</button>
+
+    <button onclick="lconvertg()">submit</button>
     
 </body>
 </html>
