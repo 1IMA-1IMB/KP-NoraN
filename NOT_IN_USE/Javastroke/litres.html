@@ -4,34 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javastroke</title>
+    <link rel="stylesheet" href="litres.css">
 </head>
 <body>
     
-    <div>
-
-        <button onclick="openmenu()">Menu</button>
-
-    </div>
-
-    <div class="menu">
-
-        <a>Litres to Gallons</a>
-
-        <a>Litres to Ounces</a>
-
-        <a>Litres to Cups</a>
-
-        <a onclick="lconvertt()">Litres to Talespoons</a>
-
-    </div>
+    <br>
 
     <script src="litres.js"></script>
 
-    <input type="number" id="inputfield" class="userinput"/> 
-    
-    <button type="submit">Submit</button>
+    <h1>LITRE CONVERTER</h1>
 
-    <button onclick="lconvertg()">submit</button>
+    <button class="transparent" onclick="lconvertg()">submit</button>
+
+    <div class="decor">
+
+        <img class="occult" id="timus" src="../../images/Timus.png">
+        
+        <div class="pick">
+
+            <p>How many Litres do you have?</p>
+
+            <div class="input">
+
+                <input type="number" id="inputfield" class="userinput"/> 
+        
+            </div>
+
+            <br>
+
+            <p>What do you want to convert Litres to?</p>
+
+            <select id="ms"> 
+
+                <option value="gigidi">Gallons</option> 
+
+                <option value="oogabooga">Ounces</option> 
+
+                <option value="cutlery">Cups</option> 
+
+                <option value="talisker">Tablespoons</option> 
+
+            </select>
+
+            <button onclick="ooglyboogly()">Convert</button>
+
+            <!--<button onclick="printg()">Gallons</button>
+
+            <button onclick="printo()">Ounces</button>
+
+            <button onclick="printc()">Cups</button>
+
+            <button onclick="printt()">Tablespoons</button>-->
+
+        </div>
+
+        <img class="occult" id="xephir" src="../../images/Xephir.png">
+    
+    </div>
+
+    <div class="ginga">
+        <p>Your answer:</p>
+
+        <p id="ans"> </p>
+    </div>
+
+    <br>
     
 </body>
 </html>
