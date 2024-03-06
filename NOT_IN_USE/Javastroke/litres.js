@@ -64,7 +64,18 @@ function lconvertg() {
 
         document.getElementById('ans').innerHTML = JSON.stringify(userinput+ " Litres in tablespoons is "+userinput*tbs+" tablespoons")
 
+    } else if (document.getElementById('ms').value == "SKULLEMOJI") {
+        
+        let userinput = document.getElementById('inputfield').value;
+        let gallon = 3.78541;
+        let ounces = 0.0295735;
+        let cups = 0.236588;
+        let tbs = 0.0147868;
+
+        document.getElementById('ans').innerHTML = JSON.stringify("Fy søren da, det er aldri noe 'Secret option', du din tåneglspisende cro magnon")
+
     }
+
 }
 
 
