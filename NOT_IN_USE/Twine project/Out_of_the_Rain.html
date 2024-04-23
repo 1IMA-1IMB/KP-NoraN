@@ -9,20 +9,134 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Out of the Rain.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Out of the Rain" startnode="122" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="7149528F-FE9A-4ECC-9090-F5B79ABFD9CA" options="" tags="" zoom="0.3" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.img {
-  display: flex;
-  margin-left: 25%;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
+<tw-storydata name="Out of the Rain" startnode="122" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="7149528F-FE9A-4ECC-9090-F5B79ABFD9CA" options="" tags="" zoom="0.3" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@media only screen and (max-width: 768px) { /*MOBILE PHONE*/
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    .img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+    }
+
+    div {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .credit_gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .credit_rows {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .credits {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: solid 1px white ;
+        padding: 5px;
+        margin: 2px;
+        width: 90%;
+    }
+
+    .credit_img {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2px;
+        height: 60%;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: medium;
+    }
+
+    .credit_a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
-div {
-  display: flex;
-  flex-direction: row;
-}
+@media only screen and (min-width: 769px) { /*COMPUTER*/
+    /* For computers: */
+    [class*="col-"] {
+      width: 100%;
+    }
+   .img {
+      display: flex;
+      margin-left: 25%;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+    }
   
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Content" color="green"></tw-tag><tw-tag name="Item" color="purple"></tw-tag><tw-tag name="Content-(Medium)" color="yellow"></tw-tag><tw-tag name="Unfinished-Content" color="blue"></tw-tag><tw-tag name="Finished-Content" color="purple"></tw-tag><tw-tag name="Content-minimum" color="red"></tw-tag><tw-tag name="Content-(minimum)" color="red"></tw-tag><tw-passagedata pid="1" name="Toilets" tags="" position="425,225" size="100,100">As the horse and the vaulter bow before their audience you feel a small prick on your shoulder.
+  .box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50%;
+  }
+
+    div {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .credit_gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .credit_rows {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .credits {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: solid 1px white ;
+        padding: 5px;
+        margin: 5px;
+        width: 23%;
+    }
+
+    .credit_img {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5px;
+        width: auto;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: medium;
+    }
+
+    .credit_a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Content" color="green"></tw-tag><tw-tag name="Item" color="purple"></tw-tag><tw-tag name="Content-(Medium)" color="yellow"></tw-tag><tw-tag name="Unfinished-Content" color="blue"></tw-tag><tw-tag name="Finished-Content" color="purple"></tw-tag><tw-tag name="Content-minimum" color="red"></tw-tag><tw-tag name="Content-(minimum)" color="red"></tw-tag><tw-passagedata pid="1" name="Toilets" tags="" position="425,225" size="100,100">As the horse and the vaulter bow before their audience you feel a small prick on your shoulder.
 
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[*&quot;I need to go to the toilet&quot;*]
 You look over to Jesse who&#39;s sitting beside you, of course you&#39;re going to let them go, but are you going to let them go alone?
@@ -140,27 +254,28 @@ There&#39;s a road to the left, and a road to the right.
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[Which path do you take?
 
 [[Left -&gt;L]]
-[[Right -&gt;R]]]</tw-passagedata><tw-passagedata pid="14" name="Janitors" tags="Unfinished-Content Content" position="275,1075" size="100,100">On your way through the corridor something stands out to you.
+[[Right -&gt;R]]]</tw-passagedata><tw-passagedata pid="14" name="Janitors" tags="Content Finished-Content" position="275,1075" size="100,100">On your way through the corridor something stands out to you.
 
 It&#39;s almost blinding how white it is, but you can make out what looks like a door in a crack of the circus tent. 
 The crack is lit with a white electrical light that is nowhere to be seen, and the door seems unaffected by the parafin lamps that hang from the ceiling. 
-
+&lt;img class=&#39;img&#39; src=&quot;https://1ima-1imb.github.io/kpnoran.github.io/NOT_IN_USE/Twine%20project/images/Janitor_Door.png&quot;&gt;
 It looks as if real life had had a light rendering issue.
 
 Somewhere inside you you think perhaps Jesse might be behind the door.
 
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[Do you open the door?
 [[ Yes -&gt;C-Door-Y]] 
-[[No -&gt;C-Door-N]]]</tw-passagedata><tw-passagedata pid="15" name="C-Door-Y" tags="" position="275,1200" size="100,100">You open the door.
+[[No -&gt;C-Door-N]]]</tw-passagedata><tw-passagedata pid="15" name="C-Door-Y" tags="Finished-Content" position="275,1200" size="100,100">You open the door.
 
+&lt;img class=&#39;img&#39; src=&quot;https://1ima-1imb.github.io/kpnoran.github.io/NOT_IN_USE/Twine%20project/images/Open.png&quot;&gt;
 You are greeted to the dissappointing sight of a janitors closet.
 
-Inside are a lot of nonsensical items, the most remarkable are the steel bucket and a mop with a long green handle.
+Inside are a lot of nonsensical items, the most remarkable are the steel bucket and a mop with a green accents.
 
-Do you take any of the items with you?
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[Do you take any of the items with you?
 [[Take the mop -&gt;Mop]] 
 [[Take the steel bucket -&gt;bucket]] 
-[[Take nothing -&gt;none]]</tw-passagedata><tw-passagedata pid="16" name="C-Door-N" tags="" position="400,1075" size="100,100">You ignore the obviously suspicious door, and press foreward through the corridor.
+[[Take nothing -&gt;none]]]</tw-passagedata><tw-passagedata pid="16" name="C-Door-N" tags="" position="400,1075" size="100,100">You ignore the obviously suspicious door, and press foreward through the corridor.
 
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[*&quot;Jesse must be somewhere&quot;*]
 
@@ -811,14 +926,14 @@ None of them sound like Jesse, but you still make an attempt.
 ]
 You decide to walk down the hallway.
 
-[[Continue -&gt;Doors DESC]] </tw-passagedata><tw-passagedata pid="91" name="Doors DESC" tags="Unfinished-Content Content" position="2750,1200" size="100,100">You ignore the recurring screams and barks of laughter that emerges from each door.
+[[Continue -&gt;Doors DESC]] </tw-passagedata><tw-passagedata pid="91" name="Doors DESC" tags="Content Finished-Content" position="2750,1200" size="100,100">You ignore the recurring screams and barks of laughter that emerges from each door.
 
 None of them sound human.
 
 There&#39;s a constant banging on all but one of them. The silent and locked door looks much older than the other doors.
 
 It&#39;s rotting off it&#39;s hinges and the surrounding white panel has a disgusting worn and brown tint. The door is moist under inspection and your nails can pick off the outer layer of rotten wood.
-
+&lt;img class=&#39;img&#39; src=&quot;https://1ima-1imb.github.io/kpnoran.github.io/NOT_IN_USE/Twine%20project/images/Door_DESC.png&quot;&gt;
 You&#39;ve had enough of everything.
 
 You kick the door down.
@@ -1061,6 +1176,7 @@ And lose the name of action.&quot;//]
 
 
 [[Restart -&gt;TITLE]] 
+[[Credits -&gt;Image Credits]] 
 [[Author&#39;s Note]]]</tw-passagedata><tw-passagedata pid="120" name="You Safe" tags="Content Finished-Content" position="3625,1150" size="100,100">An alarm goes off and you wake instantaniously. 
 
 You&#39;re greeted by the familiar window that displays the -partially pathetic-view from your house&#39;s second floor.
@@ -1076,7 +1192,7 @@ Dad.
 
 and You.
 
-[[... -&gt;END]] </tw-passagedata><tw-passagedata pid="121" name="Author&#39;s Note" tags="" position="4000,1075" size="100,100">THE END is never truly the end.
+[[... -&gt;END]] </tw-passagedata><tw-passagedata pid="121" name="Author&#39;s Note" tags="" position="3975,1000" size="100,100">THE END is never truly the end.
 
 In this case &#39;THE END&#39; is a box I&#39;ve added to all the storylines so that they all end the same place. Which is here.
 
@@ -1105,7 +1221,10 @@ The title in itself is a reference to an episode of &#39;Torchwood&#39; named &#
 I hope you&#39;ve enjoyed what I&#39;ve had to offer. 
 
 																					
-                                                                                   (align:&quot;==&gt;&quot;)[ Until we meet again.]</tw-passagedata><tw-passagedata pid="122" name="TITLE" tags="" position="225,100" size="100,100">
+                                                                                   (align:&quot;==&gt;&quot;)[ Until we meet again.]
+                                                                                   
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[[[Restart -&gt;TITLE]] 
+[[Credits -&gt;Image Credits]] ]</tw-passagedata><tw-passagedata pid="122" name="TITLE" tags="" position="225,100" size="100,100">
 
 
 
@@ -1128,7 +1247,73 @@ Justin Bieber&#39;s Despacito
 Discretion is advised
 
 [[Continue -&gt;INTRO]]
-</tw-passagedata></tw-storydata>
+</tw-passagedata><tw-passagedata pid="124" name="Image Credits" tags="" position="3975,1125" size="100,100">I want to thank all the amazing photographers and 3d-modellers who&#39;ve given their work out for free use, so here are links to their work.
+
+&lt;div class=&quot;credit_gallery&quot;&gt;
+        &lt;div class=&quot;credit_rows&quot;&gt;
+          &lt;div class=&quot;credits&quot;&gt;
+            &lt;p&gt;Door model by Grafi on Sketchfab&lt;/p&gt;
+            &lt;a class=&quot;credit_a&quot; href=&quot;https://sketchfab.com/3d-models/wood-door-old-3d-scan-f66689cc6b884820beae3eb37b2b016c&quot;&gt; Link to model &lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;credits&quot;&gt;
+            &lt;p&gt;Door model by witnessk on Sketchfab&lt;/p&gt;
+            &lt;a class=&quot;credit_a&quot; href=&quot;https://sketchfab.com/3d-models/door-with-frame-2f2f149f3ec44d658a02c1f924dfa449&quot;&gt; Link to model &lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;credits&quot;&gt;
+            &lt;p&gt;Key model by Sousinho on Sketchfab&lt;/p&gt;
+            &lt;a class=&quot;credit_a&quot; href=&quot;https://sketchfab.com/3d-models/rusted-medieval-key-657802a216f44573924add48df291324&quot;&gt; Link to model &lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;credits&quot;&gt;
+            &lt;p&gt;Lighter model by emran.bayati on Sketchfab&lt;/p&gt;
+            &lt;a class=&quot;credit_a&quot; href=&quot;https://sketchfab.com/3d-models/constantine-lighter-ead916b4e53642599b5a4b7ef27b5c4e&quot;&gt; Link to model &lt;/a&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;div class=&quot;credit_rows&quot;&gt;
+          &lt;div class=&quot;credits&quot;&gt;
+            &lt;p&gt;Mop model by LerGer on Sketchfab&lt;/p&gt;
+            &lt;a class=&quot;credit_a&quot; href=&quot;https://sketchfab.com/3d-models/mop-4f95d61bb5b04dd9b2b543a0c4cbb060&quot;&gt; Link to model &lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;credits&quot;&gt;
+            &lt;p&gt;Model by GameDev Nick on Sketchfab&lt;/p&gt;
+            &lt;a class=&quot;credit_a&quot; href=&quot;https://sketchfab.com/3d-models/old-rusted-bucket-v3-ca0755cc9e2d4dfd920e51b6ca9e1243&quot;&gt; Link to model &lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;credits&quot;&gt;
+            &lt;img class=&quot;credit_img&quot; src=&quot;https://images.unsplash.com/photo-1605707471580-101f496794fc?q=80&amp;w=435&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;&gt;
+            &lt;p&gt;Image by Egor Litvinov on Unsplash&lt;/p&gt;
+            &lt;a class=&quot;credit_a&quot; href=&quot;https://unsplash.com/photos/black-wooden-door-in-a-hallway-T0FXa1jSrSk&quot;&gt; Link image &lt;/a&gt;
+            &lt;/div&gt;
+          &lt;div class=&quot;credits&quot;&gt;
+            &lt;img class=&quot;credit_img&quot; src=&quot;https://images.unsplash.com/photo-1697082978191-120073a58607?q=80&amp;w=1031&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;&gt;
+            &lt;p&gt;Image by Leiada Krozjhen on Unsplash&lt;/p&gt;
+            &lt;a class=&quot;credit_a&quot; href=&quot;https://unsplash.com/photos/a-long-hallway-with-a-light-at-the-end-of-it-mMC_hPMl9D4&quot;&gt; Link image &lt;/a&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;div class=&quot;credit_rows&quot;&gt;
+          &lt;div class=&quot;credits&quot;&gt;
+            &lt;img class=&quot;credit_img&quot; src=&quot;https://images.unsplash.com/photo-1542799706-c8bc889c7ffd?q=80&amp;w=870&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;&gt;
+            &lt;p&gt;Image by Pau Casals on Unsplash&lt;/p&gt;
+            &lt;a class=&quot;credit_a&quot; href=&quot;https://unsplash.com/photos/closed-gray-window-curtain-WAWxsS9DeK4&quot;&gt; Link image &lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;credits&quot;&gt;
+            &lt;img class=&quot;credit_img&quot; src=&quot;https://live.staticflickr.com/8596/16506062307_44290c2c6e_t.jpg&quot;&gt;
+            &lt;p&gt;Image by Jez Dyson on Flickr&lt;/p&gt;
+            &lt;a class=&quot;credit_a&quot; href=&quot;https://www.flickr.com/photos/55150492@N04/16506062307/&quot;&gt; Link image &lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;credits&quot;&gt;
+            &lt;img class=&quot;credit_img&quot; src=&quot;https://live.staticflickr.com/5236/7088925241_4b31af6393_c.jpg&quot;&gt;
+            &lt;p&gt;Image by Izabella I. on Flickr&lt;/p&gt;
+            &lt;a class=&quot;credit_a&quot; href=&quot;https://www.flickr.com/photos/izzyface/7088925241/&quot;&gt; Link image &lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;credits&quot;&gt;
+            &lt;img class=&quot;credit_img&quot; src=&quot;https://live.staticflickr.com/7095/7393542440_b539d7d67f_z.jpg&quot;&gt;
+            &lt;p&gt;Image by pjohnson22 on Flickr&lt;/p&gt;
+            &lt;a class=&quot;credit_a&quot; href=&quot;https://www.flickr.com/photos/30463151@N03/7393542440/&quot;&gt; Link image &lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[
+[[Restart -&gt;TITLE]] 
+[[Author&#39;s Note]]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
