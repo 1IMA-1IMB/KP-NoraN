@@ -14,12 +14,31 @@
     [class*="col-"] {
       width: 100%;
     }
+  
+  .logo {
+     display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
 
+  .again {
+      display: flex;
+      margin-left: -70%;
+      margin-top: -110%;
+      justify-content: center;
+      align-items: center;
+      width: 350%;
+      position: absolute;
+      opacity: 0.1;
+    }
+  
     .img {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 50%;
+      margin-left: 25%;
     }
 
     div {
@@ -81,6 +100,17 @@
       justify-content: center;
       align-items: center;
       width: 50%;
+    }
+  
+  .again {
+      display: flex;
+      margin-left: -25%;
+    margin-top: -40%;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      position: absolute;
+      opacity: 0.1;
     }
   
   .box {
@@ -774,29 +804,21 @@ You look behind you and for a split second a shape cuts through the weeds.
 
 
 
-[[... -&gt;Mistake]] </tw-passagedata><tw-passagedata pid="76" name="Mistake" tags="" position="2600,575" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[Mistakes are easily made in life.
-]
+[[... -&gt;Mistake]] </tw-passagedata><tw-passagedata pid="76" name="Mistake" tags="" position="2600,575" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[Mistakes are easily made in life.]
+&lt;img class=&#39;again&#39; src=&quot;https://1ima-1imb.github.io/kpnoran.github.io/NOT_IN_USE/Twine%20project/images/Again_Mensis.png&quot;&gt;
 
-
-
-[[... -&gt;Mortality]] </tw-passagedata><tw-passagedata pid="77" name="Mortality" tags="" position="2600,700" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[Your Text Here]Mortality in itself may even be defined by both death and mistakes.
-
-
-
+[[... -&gt;Mortality]]</tw-passagedata><tw-passagedata pid="77" name="Mortality" tags="" position="2600,700" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[Mortality in itself may even be defined by both death and mistakes.]
+&lt;img class=&#39;again&#39; src=&quot;https://1ima-1imb.github.io/kpnoran.github.io/NOT_IN_USE/Twine%20project/images/Again_Mensis.png&quot;&gt;
 
 [[... -&gt;Past]] </tw-passagedata><tw-passagedata pid="78" name="Past" tags="" position="2725,575" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[But let&#39;s not dwell on that.
 ]
+&lt;img class=&#39;again&#39; src=&quot;https://1ima-1imb.github.io/kpnoran.github.io/NOT_IN_USE/Twine%20project/images/Again_Mensis.png&quot;&gt;
 
-
-
-(if:(history: where its name contains &quot;Hallway&quot;)&#39;s length &lt;= 0)[[[... -&gt;Again]] ]
-(if:(history: where its name contains &quot;Hallway&quot;)&#39;s length &gt;= 1)[[[... -&gt;Again 2]] ]</tw-passagedata><tw-passagedata pid="79" name="Again" tags="Unfinished-Content Content" position="2725,700" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[Let&#39;s try again
-
-]
+(if:(history: where its name contains &quot;Hallway&quot;)&#39;s length &lt;= 0)[[[... -&gt;Again]] ](if:(history: where its name contains &quot;Hallway&quot;)&#39;s length &gt;= 1)[[[... -&gt;Again 2]] ]</tw-passagedata><tw-passagedata pid="79" name="Again" tags="Content Finished-Content" position="2725,700" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[Let&#39;s try again]
+&lt;img class=&#39;again&#39; src=&quot;https://1ima-1imb.github.io/kpnoran.github.io/NOT_IN_USE/Twine%20project/images/Again_Mensis.png&quot;&gt;
 
 (if:(history: where its name contains &quot;Hallway&quot;)&#39;s length &lt;= 0)[
-[[... -&gt;Swim]] ] 
-(if:(history: where its name contains &quot;Hallway Tiger&quot;)&#39;s length &gt;= 1)[[[... -&gt;Choices]] ]</tw-passagedata><tw-passagedata pid="80" name="Hallway Tiger" tags="Finished-Content" position="2625,1275" size="100,100">You feel the water drain rapidly leaving you huddled on the floor in an attempt to stay warm. The tiger curls up to you adding another bit of extra warmth to the pile you&#39;ve created.
+[[... -&gt;Swim]] ] (if:(history: where its name contains &quot;Hallway Tiger&quot;)&#39;s length &gt;= 1)[[[... -&gt;Choices]] ]</tw-passagedata><tw-passagedata pid="80" name="Hallway Tiger" tags="Finished-Content" position="2625,1275" size="100,100">You feel the water drain rapidly leaving you huddled on the floor in an attempt to stay warm. The tiger curls up to you adding another bit of extra warmth to the pile you&#39;ve created.
 
 You&#39;re thankful the tiger came with you, it somehow makes everything more bareable in you search for Jesse.
 
@@ -944,7 +966,7 @@ The door is gone and you stand still.
 
 </tw-passagedata><tw-passagedata pid="92" name="Deal end 1" tags="" position="2750,1050" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[*&quot;Well congratulations, it seems you&#39;ve made it&quot;*
 ]
-The ringleader says. He looks less vibrant than he did before.
+The ringleader says. He looks less vibrant than he did before. Something&#39;s wrong with his face.
 
 You stand in silence.
 
@@ -955,7 +977,7 @@ You demand.
 ]
 [[Continue -&gt;Deal end 2]] </tw-passagedata><tw-passagedata pid="93" name="Deal end 2" tags="" position="2875,1050" size="100,100">You remain silent.
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[
-*&quot;Now, let us cut to the chase. Let&#39;s make a deal.&quot;*]
+*&quot;Now, let&#39;s cut to the chase. Let&#39;s make a deal.&quot;*]
 
 You wish to say something but you can&#39;t.
 
@@ -1052,9 +1074,9 @@ You decide to call your dad.
 
 [[Continue -&gt;Reunited 2]] </tw-passagedata><tw-passagedata pid="104" name="Again 2" tags="" position="2850,650" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[I suggest you make a different choice.
 
-Children such as yourself must learn &#39;&#39;patience&#39;&#39;.
-]
-[[... -&gt;Again]] </tw-passagedata><tw-passagedata pid="105" name="Choices" tags="" position="3125,1050" size="100,100">
+Children such as yourself must learn &#39;&#39;patience&#39;&#39;.]&lt;img class=&#39;again&#39; src=&quot;https://1ima-1imb.github.io/kpnoran.github.io/NOT_IN_USE/Twine%20project/images/Again_Mensis.png&quot;&gt;
+[[... -&gt;Again]] 
+</tw-passagedata><tw-passagedata pid="105" name="Choices" tags="" position="3125,1050" size="100,100">
 
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[
 *&quot;Who gets out?&quot;*
@@ -1228,7 +1250,7 @@ I hope you&#39;ve enjoyed what I&#39;ve had to offer.
 
 
 
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[&lt;img src=&quot;https://see.fontimg.com/api/renderfont4/9ze0/eyJyIjoiZnMiLCJoIjo3NSwidyI6MTUwMCwiZnMiOjUwLCJmZ2MiOiIjRkZGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/T3V0IG9mIHRoZSBSYWlu/rainydayvandal-demo.png&quot;&gt;&lt;/img&gt;
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[&lt;img class=&#39;logo&#39; src=&quot;https://see.fontimg.com/api/renderfont4/9ze0/eyJyIjoiZnMiLCJoIjo3NSwidyI6MTUwMCwiZnMiOjUwLCJmZ2MiOiIjRkZGREZEIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/T3V0IG9mIHRoZSBSYWlu/rainydayvandal-demo.png&quot;&gt;&lt;/img&gt;
 
 Written by Nilsen]
 
