@@ -9,9 +9,9 @@ app.use(cors())
 var connection = mysql.createConnection({
   host: 'localhost',
   port: 3306,
-  user: 'johu',
-  password: 'dromtorp',
-  database: 'dromtorp'
+  user: 'root',
+  password: 'root',
+  database: 'norn_skole'
 });
 
 connection.connect(function(err) {
@@ -25,9 +25,8 @@ connection.connect(function(err) {
 });
 
 app.get('/', (request, response) => {
-    if (error) throw error;
-    response.send(JSON.stringify('Hello World'))
-})
+    response.send(JSON.stringify('Hello World')) 
+}) 
 
 app.get('/getallstudents', (request, response) => {
 
@@ -37,4 +36,8 @@ app.get('/getallstudents', (request, response) => {
   });
 
   
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
 })
